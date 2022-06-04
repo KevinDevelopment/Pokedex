@@ -23,14 +23,17 @@ export function Pokemon() {
 
     return (
         <div className="container">
+
+            
+
             <ul>
                 {list.map((item) => {
                     return (
                         <div>
                             <article className="pokemons">
                                 <img src={`https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/${item.name}.png`} alt="" />
-                                <li>{item.name}</li> 
-                                <button><a href={`https://www.pokemon.com/br/pokedex/${item.name}`} target="_blank">Detalhes</a></button>                                                                  
+                                <li>{item.name}</li>
+                                <button><a href={`https://www.pokemon.com/br/pokedex/${item.name}`} target="_blank">Detalhes</a></button>
                             </article>
                         </div>
                     );

@@ -6,6 +6,8 @@ export function Navbar() {
     return (
         <div className="principal">
 
+            
+
             <section className="nav">
                 <p>Home</p>
                 <p>Curiosidades</p>
